@@ -30,7 +30,7 @@ The live exchange rates are fetched from [CurrencyAPI](https://currencyapi.com/)
   `https://api.currencyapi.com/v3/latest?apikey=cur_live_RUO8Wxs1yX3IReh7upSwSPE46ahnagGNqZTaonUj`
 
 - **API Limitations**:  
-  The free version of the CurrencyAPI service is limited to **300 requests per month **. As of today, **73 requests have been used**, leaving **227 remaining**. If the limit is reached, the app may stop functioning until the request count resets. Please be aware of this limitation when using the app frequently.
+  The free version of the CurrencyAPI service is limited to ** 300 requests per month ** . As of today, **73 requests have been used**, leaving **227 remaining**. If the limit is reached, the app may stop functioning until the request count resets every month on 26th . Please be aware of this limitation when using the app frequently.
 
 ## How It Works
 
