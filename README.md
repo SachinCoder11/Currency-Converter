@@ -1,4 +1,3 @@
-Here's a detailed documentation template for your GitHub README file, describing the Currency Converter project:
 
 ---
 
