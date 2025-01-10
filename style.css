@@ -1,0 +1,132 @@
+
+/* Global reset for margins and paddings, and setting a global font family */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif; /* Poppins font for better readability */
+}
+
+/* Basic styling for the body to center the content on the page */
+body {
+  display: flex; /* Flexbox for centering content */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh; /* Full height of the viewport */
+  background-color: #0A74DA; /* Light blue background color */
+}
+
+/* Container that holds the form and message */
+.container {
+  background-color: #003B5C; /* Dark blue background for container */
+  padding: 2rem; /* Spacing inside the container */
+  border-radius: 1rem; /* Rounded corners */
+  min-height: 50vh; /* Minimum height of 50% of the viewport */
+  width: 75vh; /* Width set to 75% of the viewport height for a balanced layout */
+  color: #FFFFFF; /* White text for contrast */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+}
+
+/* Margin for the form to give spacing around it */
+form {
+  margin: 2rem 0; /* Top and bottom margin for spacing */
+}
+
+/* Styling for form elements to ensure they are full width */
+form select,
+button,
+input {
+  width: 100%; /* Full width for these elements */
+  border: none; /* No border to match the modern look */
+  outline: none; /* Remove outline on focus */
+  border-radius: 0.75rem; /* Rounded corners for a smooth look */
+}
+
+/* Styling for select elements (dropdowns) inside the form */
+form select {
+  border: 1px solid #57A0D3; /* Light blue border */
+  font-size: 1rem; /* Font size for readability */
+  height: 3rem; /* Set height for uniformity */
+  background-color: #003B5C; /* Dark blue background matching container */
+  color: #FFFFFF; /* White text */
+  padding: 0.1rem; /* Slight padding for inner spacing */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Hover effect for select elements (dropdowns) */
+form select:hover {
+  background-color: #005E87; /* Slightly lighter blue on hover */
+}
+
+/* Styling for the input fields (amount field) */
+form input {
+  border: 1px solid #57A0D3; /* Light blue border */
+  font-size: 1rem; /* Font size for readability */
+  height: 3rem; /* Set height for uniformity */
+  padding-left: 0.5rem; /* Padding on the left for text input */
+  background-color: #003B5C; /* Dark blue background matching container */
+  color: #FFFFFF; /* White text */
+}
+
+/* Flexbox layout for the dropdown section with currency selector */
+.dropdown {
+  display: flex; /* Flexbox for aligning items in a row */
+  justify-content: space-between; /* Space out the items evenly */
+  align-items: center; /* Center items vertically */
+  margin-top: 2rem; /* Margin above for spacing */
+}
+
+/* Styling for the currency selector icon (optional icon) */
+.dropdown i {
+  font-size: 1.5rem; /* Larger font size for icon visibility */
+  margin-top: 1rem; /* Margin at the top to align with the select input */
+  color: #FFFFFF; /* White color for the icon */
+}
+
+/* Styling for the flag image next to currency code */
+.select-container img {
+  max-width: 2rem; /* Limit the image width */
+}
+
+/* Styling for the select container (for currency selection with flags) */
+.select-container {
+  display: flex; /* Flexbox for horizontal layout */
+  padding: 10px; /* Inner padding for space around content */
+  justify-content: center; /* Center the content */
+  align-items: center; /* Center vertically */
+  width: 8rem; /* Fixed width */
+  border-radius: 20px; /* Rounded corners */
+  border: 1px solid #57A0D3; /* Light blue border */
+  background-color: #003B5C; /* Dark blue background */
+}
+
+/* Styling for the select elements inside the select-container */
+.select-container select {
+  font-size: 0.8rem; /* Smaller font size for better fit */
+  width: auto; /* Adjust width to content */
+  background: none; /* No background to match container */
+  border: none; /* No border to keep it sleek */
+  color: #FFFFFF; /* White text */
+}
+
+/* Styling for the message container where results are displayed */
+.msg {
+  margin: 2rem 0; /* Margin above and below the message */
+  color: #FFFFFF; /* White text */
+}
+
+/* Styling for the form button */
+form button {
+  height: 3rem; /* Fixed height for the button */
+  background-color: #57A0D3; /* Light blue background */
+  color: #FFFFFF; /* White text */
+  font-size: 1.15rem; /* Larger font for button text */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Hover effect for the form button */
+form button:hover {
+  background-color: #004C6D; /* Darker shade of blue for button hover */
+}
+
+
+
