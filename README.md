@@ -1,4 +1,5 @@
 
+
 ---
 
 # Currency Converter
@@ -21,12 +22,15 @@ A web-based Currency Converter application that allows users to convert an amoun
 - **API**: Currency exchange rates fetched from `currencyapi.com` using the provided API key.
 - **Font Awesome**: Used for icons like the currency exchange arrow.
 
-## API
+## API Details
 
-The live exchange rates are fetched from [CurrencyAPI](https://currencyapi.com/), a service that provides exchange rate data for over 150 currencies.
+The live exchange rates are fetched from [CurrencyAPI](https://currencyapi.com/), a service that provides exchange rate data for over 150 currencies. Please note the following:
 
-API Endpoint:  
-`https://api.currencyapi.com/v3/latest?apikey=cur_live_RUO8Wxs1yX3IReh7upSwSPE46ahnagGNqZTaonUj`
+- **API Endpoint**:  
+  `https://api.currencyapi.com/v3/latest?apikey=cur_live_RUO8Wxs1yX3IReh7upSwSPE46ahnagGNqZTaonUj`
+
+- **API Limitations**:  
+  The free version of the CurrencyAPI service is limited to **300 requests per day**. As of today, **73 requests have been used**, leaving **227 remaining**. If the limit is reached, the app may stop functioning until the request count resets. Please be aware of this limitation when using the app frequently.
 
 ## How It Works
 
@@ -57,9 +61,9 @@ To run this project locally, follow the steps below:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/currency-converter.git
+   git clone https://github.com/SachinCoder11/Currency-Converter.git
    ```
-   
+
 2. **Navigate into the project directory**:
    ```bash
    cd currency-converter
@@ -97,3 +101,4 @@ This project is licensed under the MIT License.
 - The open-source community for inspiration and guidance.
 
 ---
+
